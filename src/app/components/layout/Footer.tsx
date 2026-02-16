@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Twitter, Linkedin, Github, Globe, Mail } from 'lucide-react';
 import imgLogoLight from "figma:asset/21b022a1f8cde4cc1f2c70f786de3ab7f639e359.png";
 import { StarField } from '../ui/StarField';
+import Container from '../../../imports/Container-2022-104';
 
 export const Footer = () => {
   return (
@@ -114,19 +115,8 @@ export const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-mono text-white/30">
-            <div>
-                © 2026 MARESOLIK INC.
-            </div>
-            <div className="flex items-center gap-8">
-                <span className="flex items-center gap-2">
-                    <Globe size={12} />
-                    EARTH / SOL SYSTEM
-                </span>
-                <span>
-                    EST. 2024
-                </span>
-            </div>
+        <div className="mt-20">
+            <Container />
         </div>
       </div>
     </footer>

@@ -3,6 +3,10 @@ import '@fontsource/tomorrow/400.css';
 import '@fontsource/tomorrow/500.css';
 import '@fontsource/tomorrow/600.css';
 import '@fontsource/tomorrow/700.css';
+import '@fontsource/public-sans/400.css';
+import '@fontsource/public-sans/500.css';
+import '@fontsource/public-sans/600.css';
+import '@fontsource/public-sans/700.css';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'motion/react';
 import { Navbar } from './components/layout/Navbar';
@@ -39,9 +43,9 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <div className="min-h-screen bg-[#F2F5FA] text-[#021020] font-sans selection:bg-indigo-100 selection:text-indigo-900">
+      <div className="min-h-screen bg-[#F2F5FA] text-[#021020] font-sans selection:bg-indigo-100 selection:text-indigo-900 relative">
         <Navbar />
-        <main>
+        <main className="relative">
           <AppContent />
         </main>
         <Footer />
