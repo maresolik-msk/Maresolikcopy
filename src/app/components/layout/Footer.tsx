@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Twitter, Linkedin, Github, Globe, Mail } from 'lucide-react';
-import imgLogoLight from "figma:asset/21b022a1f8cde4cc1f2c70f786de3ab7f639e359.png";
 import { StarField } from '../ui/StarField';
 import Container from '../../../imports/Container-2022-104';
 
@@ -59,9 +58,7 @@ export const Footer = () => {
                 <div className="flex items-center gap-4">
                     <div className="relative w-12 h-12 flex items-center justify-center">
                         <img 
-                            src={imgLogoLight} 
-                            alt="MARESOLIK Logo" 
-                            className="w-full h-full object-contain"
+                           <img src="/21b022a1f8cde4cc1f2c70f786de3ab7f639e359.png" />
                         />
                     </div>
                     <h3 
