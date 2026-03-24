@@ -44,10 +44,13 @@ export const Navbar = () => {
           {/* Logo Section */}
           <Link to="/" className="flex items-center gap-3 group shrink-0">
             <div className="relative w-9 h-9 flex items-center justify-center transition-transform duration-300 group-hover:rotate-180">
-              <img 
-                src={!isScrolled && isHome ? imgLogoLight : imgMskV3W1} 
-                alt="MARESOLIK Logo" 
-                className="w-full h-full object-contain"
+           <img 
+  src={!isScrolled && isHome 
+    ? "/logo-light.png" 
+    : "/logo-dark.png"} 
+  alt="MARESOLIK Logo" 
+  className="w-full h-full object-contain"
+/>
               />
             </div>
             <span 
