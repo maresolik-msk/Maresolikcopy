@@ -57,9 +57,11 @@ export const Footer = () => {
             <div className="md:col-span-5 space-y-8">
                 <div className="flex items-center gap-4">
                     <div className="relative w-12 h-12 flex items-center justify-center">
-                        <img 
-                           <img src="/21b022a1f8cde4cc1f2c70f786de3ab7f639e359.png" />
-                        />
+                       <img 
+  src="/21b022a1f8cde4cc1f2c70f786de3ab7f639e359.png" 
+  alt="MARESOLIK Logo"
+  className="w-full h-full object-contain"
+/>
                     </div>
                     <h3 
                         className="text-3xl font-light tracking-widest uppercase"
