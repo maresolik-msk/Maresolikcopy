@@ -51,7 +51,7 @@ export const Navbar = () => {
   alt="MARESOLIK Logo" 
   className="w-full h-full object-contain"
 />
-              />
+  
             </div>
             <span 
               className={`text-xl font-light tracking-[0.15em] uppercase transition-opacity duration-300 ${isScrolled ? 'hidden lg:block' : 'block'} ${!isScrolled && isHome ? 'text-white' : 'text-[#021020]'}`}
